@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: 1.5rem;
+    --head: calc(1.5rem + 3vw);
+    --data: 1.5rem;
+    --yash: 1rem;
+}
+body{
+    
+font-family: "Poppins", sans-serif;
+background: url("shoesbg.png");
+
+ 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+ padding: 0%;
+ margin: 0%;
+
+}
+img{
+    position: absolute;
+    transform: translate(-40%,-90%);
+
+    height: 180px;
+    width: 250px;
+    top: 50%;
+    left: 20%;
+    bottom: 900%;
+    right: 80%;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+.hero-section{
+    min-height: 100vh;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1rem;
+    color: rgb(11, 11, 11);
+}
+.navbar :hover{
+    color: aqua;
+}
+
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(10, 10, 9);
+}
+
+.hero-text{
+    color: rgb(23, 23, 23);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: right baseline;
+    align-items: right  baseline;
+    padding-bottom: 20vh;
+    margin-left: 10vh;
+    margin-right: 0vh;
+}
+
+.hero-text h3{
+    font-size: var(--head);
+    padding-top: 10vh;
+}
+.hero-text p{
+
+font-size: 1rem;
+align-items: left;
+}
+.hero-text a{
+    color: black;
+    align-items: center;
+    margin-bottom: 38vh;
+    margin-top: 01vh;
+    padding-left: 50vh;
+    font-size: var(--data);
+    
+}
+.hero-text a:hover {
+    color: wheat}
+.hero-text h2{
+    font-size: var(--text);
+    padding-top: 4vh;
+    margin-left: 28vh;
+}
+.hero-text h4{
+    font-size: var(--yash);
+    padding-top: 30vh;
+    margin-left: 65vh;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+   
+   
+}
+.hero-text h4:hover{
+    color: aquamarine;
+}
